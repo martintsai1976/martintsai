@@ -34,10 +34,8 @@ title-logo: /images/title-logo.png
 # Build settings
 # Remove minima theme as it is now a regular theme
 # theme: minima
-gems:
+plugins:
   - jekyll-feed
-gems:
-  - jekyll-redirect-from
 
 # Exclude from processing.
 # The following items will not be processed, by default.

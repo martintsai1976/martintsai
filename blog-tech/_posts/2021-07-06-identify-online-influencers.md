@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Identify Online Influencers with machine learning"
+title:  "Identify Online Influencers with Machine Learning"
 date:   2021-07-05 18:58:57 +0200
 category: Tech
 image: /blog-tech/assets/images/0706-1/0706-1.jpg

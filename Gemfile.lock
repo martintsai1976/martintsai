@@ -225,6 +225,8 @@ GEM
     multipart-post (2.1.1)
     nokogiri (1.11.7-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.11.7-x86_64-darwin)
+      racc (~> 1.4)
     octokit (4.21.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -240,7 +242,7 @@ GEM
     ruby-enum (0.9.0)
       i18n
     ruby2_keywords (0.0.4)
-    rubyzip (2.3.1)
+    rubyzip (2.3.2)
     safe_yaml (1.0.5)
     sass (3.7.4)
       sass-listen (~> 4.0.0)

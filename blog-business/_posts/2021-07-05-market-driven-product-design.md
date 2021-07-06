@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Market-Driven Product Design"
+date:   2021-07-05 18:58:57 +0200
+category: Business
+image: /blog-business/assets/images/0706/0706.jpg
+---
+![]({{ page.image | relative_url}})
+<br><br>Product design refers to the process of creating a plan for product production by analyzing market information, consumer needs, and business resources (Roozenburg, 1995). Product design is different from aesthetics design, which only focuses on the appearance of the product. It is a field between pure art and applied science that considers both discrete properties and functions of the product (Figure 1).
+<br><br>
+![]({{site.baseurl}}/blog-business/assets/images/0706/0706_01.png)
+<br><br>Product design plays an essential role in the product development cycle and has a direct link with the product success in marketplaces (Bloch, 1995). A great product design can successfully attract consumers, improve customer satisfaction, and create business value. A study by Xia et al. (2015) showed that effective product design can significantly increase firms' financial performance and market value. By performing a long-term research project on multiple companies from different industries, Hertenstein et al. (2005) and Guo (2010) also indicated that successful product design yielded higher stock returns. Therefore, manufacturers should pay special attention to product design and improve their design capabilities (Widyastutir and Said, 2019).
+<br><br>Market-driven product design is a product design method based on a market-driven strategy. The market-driven strategy is a strategy that focuses on a particular product market and customer groups within that market. The core concept of this strategy is understanding consumer needs within the target market (Cravens and Piercy, 2006). A market-driven strategy enables companies to shift all operational activities toward creating customer value. By increasing customer value, companies can effectively improve their financial performance (Leventhal, 2005). Besides, adopting market-driven product design represents that the whole design process is guided by market demand while considering the organizational needs at the same time. This method ensures both customer satisfaction and corporate profitability (Clifton et al., 2019).
+<br><br>Product designers often develop product requirements subjectively with their professional knowledge to improve customer satisfaction. However, this approach can not accurately capture market demand and consumer needs. Product designers must adopt objective methods to understand customer preferences and put product features that bring high customer satisfaction into functional requirements (Han and Hong, 2003). An integrated approach created by Mital et al. (2014) further emphasized the importance of understanding market demand and consumer needs to the market-driven product design. This approach showed that a market-driven product design starts with identifying the market demand with indicators such as sales volume and selling prices, and then designers need to fully understand consumer needs before entering the product design stage (Figure 2).
+<br><br>
+![]({{site.baseurl}}/blog-business/assets/images/0706/0706_02.png)
+<br><br>In the past, companies conducted qualitative and quantitative research projects such as focus groups, interviews, surveys, and questionnaires to collect user feedback, which helped them understand target markets and customers before designing a new product. However, a growing amount of online information provides product designers an alternative way to conduct market research. For example, Jin et al. (2016) combined web scraping, natural language processing, and sentiment analysis techniques to recognize major requirements of consumers in target markets by analyzing a large amount of consumer data from e-commerce platforms. This study showed the possibilities for designers to develop a successful market-driven strategy through analyzing big data. Moreover, a study by Yang et al. (2019) proved that designers could discover essential product features by analyzing online data, and these features assisted designers in various product design activities.
+
+<br><b>References</b>:
+<br><cite>Roozenburg, N. F. M., & Eekels, J. (1995). Product design: fundamentals and methods (Ser. A wiley series in product development). Wiley.</cite>
+<br><cite>Horvath Imre. (2004). A treatise on order in engineering design research. Research in Engineering Design: Theory, Applications and Concurrent Engineering, 15(3), 155–181.</cite>
+<br><cite>Bloch, P. H. (1995). Seeking the ideal form: product design and consumer response. Journal of Marketing, 59(3), 16.</cite>
+<br><cite>Xia, Y., Singhal, V. R., & Zhang, G. P. (2016). Product design awards and the market value of the firm. Production and Operations Management, 25(6), 1038–1038.</cite>
+<br><cite>Hertenstein, J. H., M. B. Platt, R. W. Veryzer. 2005. The impact of industrial design effectiveness on corporate financial performance. J. Prod. Innov. Manag. 22(1): 3–21.</cite>
+<br><cite>Guo, L. 2010. Product design and financial performance. DesignManag. J. 5(1): 5–19.</cite>
+<br><cite>Widyastutir, S., & Said, M. (2017). Consumer Consideration in Purchase Decision of SPECS Sports Shoes Product through Brand Image, Product Design and Price Perception. International Journal of Supply Chain Management.</cite>
+<br><cite>Cravens, D. W., & Piercy, N. (2006b). Strategic Marketing (8th ed.). McGraw-Hill.</cite>
+<br><cite>Leventhal, R. C. (2005). The importance of marketing. Strategic Direction, v21(n6), 3–4.</cite>
+<br><cite>Clifton, M. B., Townsend, W. P., Bird, H. M. B., & Albano, R. E. (2019). Target Costing: Market Driven Product Design. CRC Press.</cite>
+<br><cite>Han, S. H., & Hong, S. W. (2003). A systematic approach for coupling user satisfaction with product design. Ergonomics, 46(13–14), 1441–1461.</cite>
+<br><cite>Mital, A. (2014). Product development: a structured approach to consumer product development, design, and manufacture (Second). Elsevier.</cite>
+<br><cite>Jin, J., Liu, Y., Ji, P., & Liu, H. (2016). Understanding big consumer opinion data for market-driven product design. International Journal of Production Research, 54(10), 3019–3041.</cite>
+<br><cite>Yang, B., Liu, Y., Liang, Y., & Tang, M. (2019). Exploiting user experience from online customer reviews for product design. International Journal of Information Management, 46, 173–186.</cite>

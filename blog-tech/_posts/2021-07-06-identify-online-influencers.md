@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Identify Online Influencers with Machine Learning"
-date:   2021-07-05 18:58:57 +0200
+date:   2021-07-06 18:58:57 +0200
 category: Tech
 image: /blog-tech/assets/images/0706-1/0706-1.jpg
 ---
 ![]({{ page.image | relative_url}})
-The advent of online information technology has given online users more chances to become an online influencer through the use of social media and online platforms. Online influencers are typically classified by the number of friends or followers. The more friends they have, the more they could make an impact on others.
+<br><br>The advent of online information technology has given online users more chances to become an online influencer through the use of social media and online platforms. Online influencers are typically classified by the number of friends or followers. The more friends they have, the more they could make an impact on others.
 <br><br>This study aims to explore the relationship between the number of friends on Yelp.com and other independent variables and identify extra variables that can help indicate online influencers.
 <br><br>Also, this research seeks to make a prediction model to help owners on Yelp.com to improve the business. The methodology integrates linear regression, Pearson Correlation Matrix, and machine learning models, such as Decision Tree, Random Forests, and Gradient Boosting Regressions. 
 <br><br>The analysis results identified that the number of reviews has a positive correlation with the number of friends, which means that users with higher number of friends also generate higher number of reviews.  Moreover, this study created a prediction model utilizing the Gradient Boosting Regressions. The model has a 71% prediction power in predicting the number of reviews. Company owners can use this model to identify the potential online influencers with a number of reviews, then further extract valuable information.

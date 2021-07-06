@@ -3,7 +3,7 @@ layout: post
 title:  "Data Cleaning in Python"
 date:   2021-07-06 18:58:57 +0200
 category: Tech
-image: /blog-tech/assets/images/0706/0706.jpg
+image: /blog-tech/assets/images/0706.jpg
 ---
 ![]({{ page.image | relative_url}})
 
@@ -20,10 +20,10 @@ Type the following codes to read and display your dataset:
 <p style="background-color:LightGray; padding-left:30px"> df = pd.read_csv('the_name_of_your_dataset.csv') <br> df.head(3) </p>
 
 <br>Here is what our dataset looks like: <br>
-![]({{site.baseurl}}/blog-tech/assets/images/0706/0706_01.png)
+![]({{site.baseurl}}/blog-tech/assets/images/0706_01.png)
 
 <br>I want to turn this dataset into the following format without missing or duplicate values: <br>
-![]({{site.baseurl}}/blog-tech/assets/images/0706/0706_02.png)
+![]({{site.baseurl}}/blog-tech/assets/images/0706_02.png)
 
 <br>To successfully convert our dataset into the desired format, you will learn the following techniques:
 <ul>

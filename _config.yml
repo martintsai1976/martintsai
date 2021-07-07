@@ -21,7 +21,6 @@
 title: Martin Tsai
 email: martintsai19761976@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my website!
 baseurl: "/martintsai" # the subpath of your site, e.g. /blog
 url: "https://martintsai1976.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: martin-tsai-8a2812209

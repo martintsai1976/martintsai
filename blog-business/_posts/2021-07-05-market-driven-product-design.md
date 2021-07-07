@@ -5,8 +5,7 @@ date:   2021-07-05 18:58:57 +0200
 category: Business
 image: /blog-business/assets/images/0706/0706.jpg
 ---
-![]({{ page.image | relative_url}})
-<br><br>Product design refers to the process of creating a plan for product production by analyzing market information, consumer needs, and business resources (Roozenburg, 1995). Product design is different from aesthetics design, which only focuses on the appearance of the product. It is a field between pure art and applied science that considers both discrete properties and functions of the product (Figure 1).
+Product design refers to the process of creating a plan for product production by analyzing market information, consumer needs, and business resources (Roozenburg, 1995). Product design is different from aesthetics design, which only focuses on the appearance of the product. It is a field between pure art and applied science that considers both discrete properties and functions of the product (Figure 1).
 <br><br>
 ![]({{site.baseurl}}/blog-business/assets/images/0706/0706_01.png)
 <br><br>Product design plays an essential role in the product development cycle and has a direct link with the product success in marketplaces (Bloch, 1995). A great product design can successfully attract consumers, improve customer satisfaction, and create business value. A study by Xia et al. (2015) showed that effective product design can significantly increase firms' financial performance and market value. By performing a long-term research project on multiple companies from different industries, Hertenstein et al. (2005) and Guo (2010) also indicated that successful product design yielded higher stock returns. Therefore, manufacturers should pay special attention to product design and improve their design capabilities (Widyastutir and Said, 2019).

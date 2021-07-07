@@ -5,8 +5,7 @@ date:   2021-07-05 18:58:57 +0200
 category: Tech
 image: /blog-tech/assets/images/0706/0706.jpg
 ---
-![]({{ page.image | relative_url}})
-<br><br>This paper explains all the basic techniques for data cleaning in Python. Data cleaning is one of the most important processes for data analysis, and a good way to start your Data Science journey!
+This paper explains all the basic techniques for data cleaning in Python. Data cleaning is one of the most important processes for data analysis, and a good way to start your Data Science journey!
 
 ### Step 1. Import libraries
 The only library you need is Pandas! Import it as "pd" to make your lives easier. You will use this shortcut in the following codes.

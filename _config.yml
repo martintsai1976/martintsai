@@ -27,6 +27,9 @@ url: "https://martintsai1976.github.io" # the base hostname & protocol for your 
 linkedin_username: martin-tsai-8a2812209
 github_username:  martintsai1976
 
+# only get the first sentence for the excerpt
+excerpt_separator: .
+
 author: Martin Tsai
 copyright: "Martin Tsai"
 title-logo: /images/title-logo.png

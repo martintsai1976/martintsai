@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Market Segmentation with k-means Clustering"
+title:  "Market Segmentation with K-means Clustering"
 date:   2021-07-07 10:58:57 +0200
 category: Tech
 image: /blog-tech/assets/images/0707/0707.jpg

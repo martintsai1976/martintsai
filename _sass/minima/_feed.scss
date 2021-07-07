@@ -8,6 +8,8 @@
     border-top: lightgray;
     border-width: 1px;
     border-top-style: solid;
+    max-width: 100%;
+    overflow: hidden;
 
     .card-content {
         display: grid;
@@ -75,6 +77,8 @@
     border-top: lightgray;
     border-width: 1px;
     border-top-style: solid;
+    max-width: 100%;
+    overflow: hidden;
 
     .card-content {
         display: grid;
@@ -90,7 +94,7 @@
         align-content: start;
     }
 
-    .card-excerpt {
+     .card-excerpt {
         grid-area: excerpt;
         align-content: start;
     }

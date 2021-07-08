@@ -269,16 +269,16 @@
 
 // layout of about page
 .box{
-  display: flex
+  display: block;
 }
 .box .aboutImg{
-  margin-top: 60px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
+  max-width: 90%;
+  // width: 800px;
 }
 .box .aboutImg img{
-  max-width: 100%;
 }
 .box .aboutContent{
   padding-left: 20px;

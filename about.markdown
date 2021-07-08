@@ -10,7 +10,7 @@ permalink: /about/
             <h2>Hey! I'm Martin.</h2>
             <p>
             I'm a data enthusiast and financial professional based in the Netherlands.
-            <br><br>I enjoy taking complex problems and turning them into valuable and informative reports. I also love to explore AI, machine learning and e-commerce related topics.
+            <br><br>I enjoy taking complex problems and turning them into valuable and informative reports. I also love to explore AI, machine learning, and e-commerce related topics.
             <br><br>When I’m not coding or pondering business issues, you’ll find me in the ocean or on the PUBG battlefield.
             </p>
         </div>

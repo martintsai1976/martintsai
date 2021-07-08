@@ -15,7 +15,7 @@ permalink: /about/
             </p>
         </div>
         <div class="aboutImg">
-            <img src="{{site.baseurl}}/images/about.jpg">
+            <img src="{{site.baseurl}}/images/profile.jpg">
         </div>
     </div>
 </body>

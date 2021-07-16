@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Data Cleaning in Python"
-date:   2021-07-05 18:58:57 +0200
+date:   2021-07-01 18:58:57 +0200
 category: Tech
 image: /blog-tech/assets/images/0706/0706.jpg
 ---

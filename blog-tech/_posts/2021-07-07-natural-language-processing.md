@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Natural Language Processing for Online Reviews"
-date:   2021-07-07 11:08:57 +0200
+date:   2021-07-10 11:08:57 +0200
 category: Tech
 image: /blog-tech/assets/images/0707/0707-1.jpg
 ---

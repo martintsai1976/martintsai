@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Identify Online Influencers with Machine Learning"
-date:   2021-07-06 18:58:57 +0200
+date:   2021-07-03 18:58:57 +0200
 category: Tech
 image: /blog-tech/assets/images/0706-1/0706-1.jpg
 ---
@@ -16,7 +16,7 @@ The advent of online information technology has given online users more chances 
 <br>The raw research dataset in this paper included thousands of online reviews from Yelp.com. Each review contained the following variables: date, rating, number of friends, number of reviews, and review content. Specifically, the review contents were analyzed by the text mining system in minemytext.com, and were converted into three new variables for the strength of positive sentiment, the strength of negative sentiment, and the average strength of each review. 
 <br><br>Besides, the review dates were transformed into numerical values for further analyses. The dates ranged from July 19, 2009 to June 7, 2021 and were transformed into numbers from 1 to 4,342. The description of the research dataset is presented as follows.
 <br><br>
-![]({{site.baseurl}}/blog-tech/assets/images/0706-1/0706-1_01.png)
+<div style="text-align: center"><img src="{{site.baseurl}}/blog-tech/assets/images/0706-1/0706-1_01.png"></div>
 <br><br>
 Among the variables, the number of friends is the dependent variable in this paper, and the distribution of it is shown in the following figures. Most reviewers (98.45%) have less than 1,000 friends on Yelp.com, and around 1% of reviewers have more than 1,500 friends. These people with more than 1,500 friends are regarded as online influencers in the following analysis.
 <br><br>
@@ -33,14 +33,15 @@ Among the variables, the number of friends is the dependent variable in this pap
 <u>Linear Regression</u>
 <br>The R-squared value from the linear regression model was 0.246. It means that around 25% of the data fit the regression model. The F-value and Prob(F) test the overall significance of the regression model. The Prob(F) has a value of 0.00, which rejected the null hypothesis that all of the regression coefficients are zero. This implied that at least some of the regression parameters are nonzero and that the regression equation has some validity in fitting the data. 
 <br><br>Besides, the p-values of independent variables indicated that all variables except the average sentiment were statistically significant (p-value lower than 0.01). To be more specific, the variable date has a t-value of -4.855, and the p-value is 0.000; the variable rating has a t-value of 4.556, and the p-value is 0.000; the variable negative sentiment has a t-value of -4.339, and the p-value is 0.000; the variable positive sentiment has a t-value of 3.758, and the p-value is 0.000; the variable average sentiment has a t-value of 0.005, and the p-value is 0.996; the variable number of reviews has a t-value of 52.579, and the p-value is 0.000. Thus, the average sentiment, which had 0.996 p-value, was excluded from the following step. Figure 3 shows the result of the linear regression.
-<br><br>
-![]({{site.baseurl}}/blog-tech/assets/images/0706-1/0706-1_03.png)
+<br>
+<div style="text-align: center"><img src="{{site.baseurl}}/blog-tech/assets/images/0706-1/0706-1_03.png"></div>
+<br>
 
 <u>Correlation Matrix</u>
 <br>The Correlation Matrix includes correlation coefficients that indicate whether there is a linear relationship between two variables. As a result, the Correlation Matrix of this analysis indicates that there is a low positive but nearly moderate (0.49) linear correlation between number of reviews and number of friends. Next, there is a low positive (0.44) linear correlation between rating and negative sentiment. Finally, there is another low positive (0.34) linear correlation between rating and positive sentiment. The other correlations can be negligible, meaning there are no relationships. The following figure presents the Correlation Matrix of this analysis:
 <br><br>
-![]({{site.baseurl}}/blog-tech/assets/images/0706-1/0706-1_04.png)
-<br><br>
+<div style="text-align: center"><img src="{{site.baseurl}}/blog-tech/assets/images/0706-1/0706-1_04.png"></div>
+<br>
 
 ### Further Analyses
 This chapter compares the performance of Linear Regression, Decision Tree, Random Forest and Gradient Boosting algorithms and further examines which model has the best performance.
@@ -59,14 +60,14 @@ Figure above showed the line graph after dropping each feature, and table 2 pres
 
 ### Discussion
 Based on the linear regression results and the Correlation matrix (Chapter 4), the variable number of reviews is statistically significant and has the strongest correlation with number of friends compared to the other independent variables. Therefore, I plotted a scatter plot to further examine the relationship between number of friends and number of reviews.  Figure 8 shows that when the number of friends increases, the number of reviews also increases. This indicates that online influencers on Yelp.com also left more reviews compared to the others.
-<br><br>
-![]({{site.baseurl}}/blog-tech/assets/images/0706-1/0706-1_07.png)
+<br>
+<div style="text-align: center"><img src="{{site.baseurl}}/blog-tech/assets/images/0706-1/0706-1_07.png"></div>
 <br><br>Further, Table 3 compared the value of each variable between general users and online influencers. It shows that online influencers had 3,380 number of friends on average, and they generated 1,725 reviews on average. On the other hand, general users only got 151 number of friends, and they left merely 174 reviews on average. Moreover, the average rating and average sentiment that online influencers created were often higher than the general users. These results are aligned with the literature of Stansberry (2015) who mentioned that a relatively small number of influencers tended to be the main sources of online opinions.
-<br><br>
-![]({{site.baseurl}}/blog-tech/assets/images/0706-1/0706-1_08.png)
+<br>
+<div style="text-align: center"><img src="{{site.baseurl}}/blog-tech/assets/images/0706-1/0706-1_08.png"></div>
 <br><br>In terms of the further analysis of the prediction model (Chapter 5), the gradient boosting model has approximately 71% prediction power with only 1 variable number of reviews. The other variables would decrease the performance of the model. The result means that we can use the number of reviews to predict the number of friends of a user. The following chart further shows the distribution of true values(blue) and predicted values(red) of the gradient boosting model. If taken ID 1000 (true_value = 64) as a reference point: before ID 1000, the model tends to overestimate the number of friends, after that, the model is prone to underestimate the number of friends. Therefore, the model performs better for people with a smaller number of friends. 
-<br><br>
-![]({{site.baseurl}}/blog-tech/assets/images/0706-1/0706-1_09.png)
+<br>
+<div style="text-align: center"><img src="{{site.baseurl}}/blog-tech/assets/images/0706-1/0706-1_09.png"></div>
 <br><br>These results can help fill in the gap that I identified in the literature. Besides the number of friends, the number of reviews can also be an indicator of online influencers. It is not only correlated with number of friends, but also a strong predictor of number of friends. Thus, the result allows marketers to examine the number of online reviews to identify whose reviews might play an important part to general users. 
 <br><br>
 

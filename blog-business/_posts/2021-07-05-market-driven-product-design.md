@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Market-Driven Product Design"
-date:   2021-07-05 18:58:57 +0200
+date:   2021-07-07 18:58:57 +0200
 category: Business
 image: /blog-business/assets/images/0706/0706.jpg
 ---

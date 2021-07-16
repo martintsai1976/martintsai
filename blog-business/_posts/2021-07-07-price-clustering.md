@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Price Clustering"
-date:   2021-07-07 10:58:57 +0200
+date:   2021-07-12 10:58:57 +0200
 category: Business
 image: /blog-business/assets/images/0707/0707.jpg
 ---
